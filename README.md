@@ -13,3 +13,5 @@ Assim, consegui fazer um contador de 4 bits e expandir ele, acrescendo chaves de
 Fornecer um Endereço de 4 bits, um dado de 8 bits e gravar na memoria RAM, e também de ler esse registro em determinada posição e jogar no Barramento
 
 5 - Fiz um protótipo de um registrador de intrução pra poder acrescentar no Modelo do SAP-1 a posteriori
+
+6 - Consegui fazer os dois componentes (decodificador de instrução e contador em anel) do controlador/sequencializador e em seguida implementei este, para aí sim tentar junta-los no SAP-1
