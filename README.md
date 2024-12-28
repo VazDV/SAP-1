@@ -7,4 +7,6 @@ Assim, consegui fazer um contador de 4 bits e expandir ele, acrescendo chaves de
 
 2 - Refiz o contador
 
+3 - Uma espécie de Registrador, meu objetivo é criar cada componente e depois juntar tudo...
+
 
