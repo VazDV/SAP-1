@@ -11,3 +11,5 @@ Assim, consegui fazer um contador de 4 bits e expandir ele, acrescendo chaves de
 
 4 - Quando fui criar a RAM não achei lógica criar sozinha então aproveitei pra juntar os dois componentes que eu já tinha posse com ela, assim já tenho as funções de contar, registrar em uma REM,
 Fornecer um Endereço de 4 bits, um dado de 8 bits e gravar na memoria RAM, e também de ler esse registro em determinada posição e jogar no Barramento
+
+5 - Fiz um protótipo de um registrador de intrução pra poder acrescentar no Modelo do SAP-1 a posteriori
