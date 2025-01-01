@@ -28,10 +28,9 @@ FINAL: Segue tudo que explicarei agora está dentro do arquivo .ZIP:
 3 - Corrigido o problema dos registradores, percebi que o estado de alta impedância estava fazendo com que os registradores e até mesmo o contador geracem dados aleatórios por causa do ruído. Então resolvi acrescentando um resistor "PullDown" no barramento,
 Ele faz com que o barramento fique forçado ao valor 0 caso não tenha nada gerando sinal, assim corta o estado de alta impedância, evitando geração de ruído.
 
-4 - Em seguida tive que corrigir o controlador de sequencia que estava todo errado, desde a geração de intrução até de sinais.
+4 - Em seguida tive que corrigir o controlador de sequencia que estava todo errado, desde a geração de intrução até de sinais. Fiz um mapeamento manual de todos as funções e saídas que deveriam ser apresentadas, pra conseguir concertar o controlador.
 
-
-5 - por fim conectei tudo e gerei testei algumas instruções, validando cada operação.
+5 - por fim conectei tudo e testei algumas instruções, validando cada operação.
 
 HORAS GASTAS: 21 HORAS
 
