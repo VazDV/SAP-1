@@ -19,4 +19,19 @@ Fornecer um Endereço de 4 bits, um dado de 8 bits e gravar na memoria RAM, e ta
 7 - Resolvi que o melhor caminho era fazer cada componente separado e jutnar no final, pois assim conseguiria testar tudo e ver se estava funcionando. Tomei esta decisão porque fazendo um por um
 e juntando aos pouco ficou meio sem setido para mim;
 
+FINAL: Segue tudo que explicarei agora está dentro do arquivo .ZIP:
+
+1 - apoós terminar a montagem percebi que dava pra criar circuitos integrados que ficava bem mais legível, não sabia ade dado isntante, que isso era possível. Após criar os circuitos e refazer o SAP-1 que ainda não era funcional, comecei a validação.
+
+2 - Primeiro percebi que todos os registradores estavam errados, pois não guardavam os valores quando a comunicação com o barramento era cortada, então fiz uma retoralimentação com multiplexador para poder manter o valor dentro dele.
+
+3 - Corrigido o problema dos registradores, percebi que o estado de alta impedância estava fazendo com que os registradores e até mesmo o contador geracem dados aleatórios por causa do ruído. Então resolvi acrescentando um resistor "PullDown" no barramento,
+Ele faz com que o barramento fique forçado ao valor 0 caso não tenha nada gerando sinal, assim corta o estado de alta impedância, evitando geração de ruído.
+
+4 - Em seguida tive que corrigir o controlador de sequencia que estava todo errado, desde a geração de intrução até de sinais.
+
+
+5 - por fim conectei tudo e gerei testei algumas instruções, validando cada operação.
+
+HORAS GASTAS: 21 HORAS
 
